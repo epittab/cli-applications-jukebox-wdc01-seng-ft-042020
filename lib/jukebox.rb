@@ -45,7 +45,7 @@ def exit_jukebox()
   
 end
 
-def run(songs)
+def run()
 
 should_run = true
 
@@ -65,3 +65,5 @@ should_run = true
     end
   end
 end
+
+run()
