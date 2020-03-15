@@ -18,6 +18,8 @@ def play(songs)
   
   if (songs[user_response.to_i - 1])
     puts "Playing #{songs[user_response.to_i - 1]}"
+  elsif (songs.include?(user_response))
+    puts "Playing "
   else
     puts "Invalid input, please try again"
   end
