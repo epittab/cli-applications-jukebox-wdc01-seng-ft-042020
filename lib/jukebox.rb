@@ -48,6 +48,8 @@ def run()
 should_run = true
 
 
+
+
   while (should_run) do 
     puts "Please enter a command:"
     user_choice = gets.strip
