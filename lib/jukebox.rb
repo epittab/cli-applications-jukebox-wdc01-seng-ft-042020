@@ -66,5 +66,3 @@ should_run = true
     end
   end
 end
-
-run()
