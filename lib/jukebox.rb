@@ -63,7 +63,7 @@ should_run = true
     elsif (user_choice == 'exit')
       should_run = exit_jukebox()
     else
-      greeting()
+      run()
     end
   end
 end
