@@ -17,7 +17,7 @@ def play(songs)
   user_response = gets.strip
   
   if (songs[user_response.to_i - 1])
-    puts "Playing #{songs[user_response]}"
+    puts "Playing #{songs[user_response.to_i - 1]}"
   
   
 end
