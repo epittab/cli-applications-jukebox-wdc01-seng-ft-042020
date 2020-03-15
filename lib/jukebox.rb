@@ -11,6 +11,10 @@ puts "- exit : exits this program"
   
 end
 
+ def output_song(songs, index) 
+        puts "Playing #{songs[index]}"
+    end
+
 
    def play(songs)
       puts "Please enter a song name or number:"
