@@ -55,10 +55,12 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+
+ while (should_run) do 
   puts "Please enter a command:"
   user_choice = gets.strip
   
-  while (should_run) do 
+ 
     if (user_choice == 'help')
       help()
     elsif (user_choice == 'play')
