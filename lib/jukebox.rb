@@ -56,10 +56,9 @@ songs = [
 ]
 
 
- while (should_run) do 
-  puts "Please enter a command:"
-  user_choice = gets.strip
-  
+  while (should_run) do 
+    puts "Please enter a command:"
+    user_choice = gets.strip
  
     if (user_choice == 'help')
       help()
