@@ -62,8 +62,6 @@ should_run = true
       list(songs)
     elsif (user_choice == 'exit')
       should_run = exit_jukebox()
-    else
-      run()
     end
   end
 end
